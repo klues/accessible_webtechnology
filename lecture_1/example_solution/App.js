@@ -11,6 +11,8 @@ const htmlTemplate = /*html*/`
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/standard-coins">Standard coins</router-link></li>
                 <li><router-link to="/special-coins">Special coins</router-link></li>
+                <li><router-link to="/euro-select">Component: EuroSelect</router-link></li>
+                <li><router-link to="/country-select">Component: CountrySelect</router-link></li>
             </ul>
         </nav>
     </header>

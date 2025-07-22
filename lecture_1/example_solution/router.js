@@ -1,13 +1,15 @@
 import HomeView from './views/HomeView.js';
-import StandardCoinsNav from './views/StandardCoinsNav.js';
-import StandardCoinsCountry from './views/StandardCoinsCountry.js';
-import SpecialCoinsNav from './views/SpecialCoinsNav.js';
+import StandardCoinsView from './views/StandardCoinsView.js';
+import SpecialCoinsView from './views/SpecialCoinsView.js';
+import EuroSelect from './components/EuroSelect.js';
+import CountrySelect from './components/CountrySelect.js';
 
 const routes = [
   { path: '/', component: HomeView },
-  { path: '/special-coins', component: SpecialCoinsNav },
-  { path: '/standard-coins', component: StandardCoinsNav },
-  { path: '/standard-coins/:country', component: StandardCoinsCountry }
+  { path: '/special-coins', component: SpecialCoinsView },
+  { path: '/standard-coins', component: StandardCoinsView },
+  { path: '/euro-select', component: EuroSelect },
+  { path: '/country-select', component: CountrySelect }
 ];
 
 export const router = VueRouter.createRouter({
