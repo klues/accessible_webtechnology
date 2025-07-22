@@ -1,7 +1,7 @@
 const htmlTemplate = /*html*/`
 <div>
-  <h2>Standard coins - country "{{ this.$route.params.country }}"</h2>
-  <p id="euro-list-label">Please check which coins of country "{{ this.$route.params.country }}" you already have:</p>
+  <h2>Standard coins - country "{{ this.getCountry() }}"</h2>
+  <p id="euro-list-label">Please check which coins of country "{{ this.getCountry() }}" you already have:</p>
   <ul aria-labelledby="euro-list-label">
     <li>
       <input id="2euro" type="checkbox">
@@ -40,5 +40,19 @@ const htmlTemplate = /*html*/`
 `
 
 export default {
-  template: htmlTemplate
+  template: htmlTemplate,
+  data() {
+    return {
+      countryMappings: {
+        "at": "Austria",
+        "de": "Germany",
+        "it": "Italy",
+      }
+    }
+  },
+  methods: {
+    getCountry() {
+      return this.countryMappings[this.$route.params.country];
+    }
+  }
 };
