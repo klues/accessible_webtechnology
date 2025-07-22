@@ -5,7 +5,7 @@ const htmlTemplate = /*html*/`
 <div>
     <header>
         <h1>My App</h1>
-        <h2 id="main-nav">Hauptnavigation</h2>
+        <h2 id="main-nav">Main navigation</h2>
         <nav aria-labelledby="main-nav">
             <ul>
                 <li><router-link to="/">Home</router-link></li>
