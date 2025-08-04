@@ -85,6 +85,18 @@ big {
     font-size: 1.5rem;
 }
 
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
 .mt-7 {
     margin-top: 7em;
+}
+
+.full-width {
+    max-width: 100%;
 }
