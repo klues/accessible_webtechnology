@@ -224,7 +224,7 @@ This Javascript code appends a new `<div>` element for each element of an array 
 
 # Components of example messenger app
 
-<img src="./img/my_messenger_components.png" alt="The same messenger app mockup, but with components highlighted: the whole screen is the 'App', within it is a 'Conversation' component which consists of a 'MessageList', which again consits of several 'Message' components" height="500" class="mt-2">
+<img src="./img/my_messenger_components.png" alt="The same messenger app mockup, but with components highlighted: the whole screen is the 'App', within it there is a 'Conversation' component which consists of a 'MessageList', which again consits of several 'Message' components" height="500" class="mt-2">
 
 ---
 
