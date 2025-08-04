@@ -1,0 +1,90 @@
+/*!
+@theme fhtw
+@version 0.1.0
+*/
+
+/* fhtw.css */
+@import 'gaia'; /* Import default Marp styles to build upon */
+
+section {
+    background-image: none;
+    background-color: white;
+    font-size: 25px; 
+    color:black;
+    padding: 1rem;
+}
+
+section[data-class="lead"] {
+    background-image: 
+      url('./marp_themes/img/fhtw_logo.svg'),       /* Logo on top layer */
+      linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.8)),
+      url('./marp_themes/img/title_bg.jpg'); /* Background image on bottom layer */
+    
+    /* Position and size of each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, center, top; /* Position logo in bottom-right */
+    background-size: 400px, cover, cover;             /* Logo size and background cover */
+  
+    /*font-family: Lato, 'Avenir Next', Avenir, 'Trebuchet MS', 'Segoe UI', sans-serif; /*default*/
+}
+
+section.lead h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+section.lead p {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer {
+    /*font-family: Lato, 'Avenir Next', Avenir, 'Trebuchet MS', 'Segoe UI', sans-serif; /*default*/
+    font-size: 60%;
+    color: #6a7a7d;
+    text-align: start;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.columns2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 2fr)) minmax(0, 2fr);
+    gap: 1rem;
+}
+
+ul, ol {
+    margin-bottom: 2em;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 6px;
+  margin: 1em 0;
+}
+
+.box-info {
+  background-color: #eaf4fc;
+  border-left: 6px solid #3498db;
+}
+
+.box-warn {
+  background-color: #fff4e5;    
+  border-left: 6px solid #f39c12; 
+}
+
+small {
+    font-size: 0.7rem;
+}
+
+big {
+    font-size: 1.5rem;
+}
+
+.mt-7 {
+    margin-top: 7em;
+}
