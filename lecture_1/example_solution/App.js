@@ -4,15 +4,13 @@ const { createApp } = Vue;
 const htmlTemplate = /*html*/`
 <div>
     <header>
-        <h1>Euro Coin collection</h1>
+        <h1>My Messenger</h1>
         <h2 id="main-nav">Main navigation</h2>
         <nav aria-labelledby="main-nav">
             <ul>
                 <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/standard-coins">Standard coins</router-link></li>
-                <li><router-link to="/special-coins">Special coins</router-link></li>
-                <li><router-link to="/euro-select">Component: EuroSelect</router-link></li>
-                <li><router-link to="/country-select">Component: CountrySelect</router-link></li>
+                <li><router-link to="/users">Users</router-link></li>
+                <li><router-link to="/conversation">Conversation</router-link></li>
             </ul>
         </nav>
     </header>
