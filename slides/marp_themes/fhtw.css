@@ -51,14 +51,26 @@ footer {
     gap: 1rem;
 }
 
-.columns2 {
+.columns-3-1 {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 2fr)) minmax(0, 2fr);
+    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
     gap: 1rem;
 }
 
+.columns-1-3 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+    gap: 1rem;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul, ol {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .box {
@@ -93,8 +105,20 @@ big {
     margin-top: 2em;
 }
 
+.mt-3 {
+    margin-top: 3em;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
 .mt-7 {
     margin-top: 7em;
+}
+
+.pt-3 {
+    padding-top: 3em;
 }
 
 .full-width {

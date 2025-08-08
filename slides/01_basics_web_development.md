@@ -10,12 +10,13 @@ keywords: Webtechnology, HTML, CSS, Javascript, component-based, WCAG, Accessibi
 ---
 
 <!--
-_paginate: skip
 _footer: ''
 _class : lead
 -->
 
 # Accessible Webtechnology - Lesson 1
+
+Web development basics, HTML, Component-based development, Screen reader
 
 ---
 
@@ -33,6 +34,11 @@ _class : lead
 - Intro to NVDA screen reader
 
 ---
+
+<!--
+_footer: ''
+_class : lead
+-->
 
 # Basics of Web Development
 
@@ -64,13 +70,13 @@ _class : lead
 
 ## Browser as rendering tool for webpage
 
-![Image showing a browser which requests and receives text files (HTML, CSS, JavaScript). The text files are rendered showing a visual webpage.](./img/client_server_browser_3_render_webpage.png)
+<img class="mt-2" src="./img/client_server_browser_3_render_webpage.png" alt="Image showing a browser which requests and receives text files (HTML, CSS, JavaScript). The text files are rendered showing a visual webpage." height="450" />
 
 ---
 
 ## Local development of a web application
 
-<img src="./img/client_server_browser_4_dev_computer.png" alt="Image showing browser and web server interacting via HTTP. Also shows text editor which saves HTML, CSS, JavaScript files to local file system. These files are retrieved by the webserver and served to the browser. Everything runs on the same development computer" height="500" />
+<img class="mt-1" src="./img/client_server_browser_4_dev_computer.png" alt="Image showing browser and web server interacting via HTTP. Also shows text editor which saves HTML, CSS, JavaScript files to local file system. These files are retrieved by the webserver and served to the browser. Everything runs on the same development computer" height="550" />
 
 ---
 
@@ -183,50 +189,241 @@ This Javascript code appends a new `<div>` element for each element of an array 
 
 ## Overview of HTML, CSS, JavaScript
 
+<div class="mt-2">
+
 | Technology | Role | Purpose |
 |------|------|---------|
 | **HTML** | Structure | Page content |
 | **CSS**  | Presentation | Styling |
 | **JavaScript**   | Behavior | Interactivity |
+</div>
+
 
 ---
+
+<!--
+_footer: ''
+_class : lead
+-->
 
 # Component-Based Web Development
 
 ---
 
-## What is it?
+## What is component-based web development?
 
-- Split UI into reusable **components**
+- Split user interface (UI) into reusable **components**
 - Improves:
   - Maintainability
   - Readability
   - Scalability
+- Used in **frameworks**
+   - **framework**: standard foundation for building software
+   - examples for common web frameworks: **React, Vue.js, Angular**
+
+<img class="mt-2" src="./img/vuejs.png" alt="Logo of Vue.js" height="100">
 
 ---
 
-## Components Examples
-
-- Navigation bar
-- Article card
-- Modal dialog
-- Form input group
-
-> Used in frameworks like React, Vue, Angular
-
----
-
-# Example messenger app
+## Example messenger app
 
 <img src="./img/my_messenger.png" alt="A messenger app mockup, showing a conversation with two message bubbles. The app has a title header and a navigation bar." height="500" class="mt-2">
 
 ---
 
-# Components of example messenger app
+## Components of example messenger app
 
 <img src="./img/my_messenger_components.png" alt="The same messenger app mockup, but with components highlighted: the whole screen is the 'App', within it there is a 'Conversation' component which consists of a 'MessageList', which again consits of several 'Message' components" height="500" class="mt-2">
 
 ---
+
+## Properties of components
+
+**Components** ...
+
+- can **contain other components**
+  - e.g. `MessageList` contains `Message` components
+- can be **reused at several multiple places** within an app
+   - e.g. `MessageList` component used in real conversation view and in settings for defining the style of a conversation.
+- can **contain HTML, CSS and JavaScript**
+   - each component has its own content, style and logic
+- normally are defined in separate files, e.g. `MessageList` is defined in `MessageList.js`
+
+---
+
+## Define your components
+
+Let's explore **components in practice**:
+
+- **choose view** of your UI mockup (from lecture *UX Aspects*)
+- **choose a part** where you think it could be implemented as a component
+  - your part should have at least **one sub-component**
+  - e.g. `MessageList` with sub-components of type `Message`
+- give your components **clear, descriptive names**
+- sketch a **simple mockup of your components on paper**
+
+---
+
+## Translate your components to HTML
+
+Now let's think of the **HTML structure** in your components:
+
+- take the **leaf component** (lowest level component), e.g. `Message`
+- think about **fitting HTML elements** for this component, e.g. `<div>`, `<strong>`, `<p>`
+- create a **HTML block representing your component**, e.g.:
+
+<div class="columns">
+<div>
+
+```html
+<!-- component "Message" -->
+<div>
+   <strong>Benjamin (1009)</strong>
+   <p>Hi, how are you?</p>
+</div>
+```
+
+</div>
+
+<div>
+<img src="img/message_bubble.png" alt="" width="600" class="mt-1">
+</div>
+</div>
+
+<div class="mt-2">
+
+For now:
+- use **pen and paper** or **any text editor**
+- only **focus on content** (no styling via CSS)
+</div>
+
+---
+
+## Translate your components to HTML (2)
+
+- **go up the hierarchy** to the next component, e.g. `MessageList`
+- **translate the component to HTML** and use **new HTML tags for your existing components**:
+
+<div class="columns">
+<div>
+
+```html
+<!-- component "MessageList" -->
+<ol>
+   <li>
+      <Message/>
+   </li>
+   <li>
+      <Message/>
+   </li>
+</ol>
+```
+
+</div>
+
+<div>
+<img src="img/message_bubble_2x.png" alt="" width="600" class="mt-1">
+</div>
+</div>
+
+---
+
+## Translate your components to HTML (3)
+
+- **go up the hierarchy** to the next component, e.g. `Conversation`
+- **translate the component to HTML** and use **new HTML tags for your existing components**:
+
+<div class="columns">
+<div class="pt-3">
+
+```html
+<!-- component "Conversation" -->
+<h2>Conversation with Benjamin (1009)</h2>
+<button>↺ Update</button>
+<MessageList/>
+<input type="text" placeholder="type message...">
+<button>Send</button>
+```
+</div>
+
+<div>
+
+<img src="img/conversation_component_view.png" alt="" width="600" class="mt-1">
+</div>
+</div>
+
+---
+
+<!--
+_footer: ''
+_class : lead
+-->
+
+# Development with VS Code and Vue.js template
+
+---
+
+<div class="columns-3-1">
+<div>
+
+## What is Visual Studio Code (VS Code)?
+
+- open code editor from Microsoft
+- helps with writing source code (e.g. HTML, CSS, JavaScript)
+</div>
+
+<div>
+<img src="img/vscode_logo.png" alt="" width="100" class="mt-3">
+</div>
+</div>
+
+<div class="columns-3-1 mt-2">
+<div>
+
+## What is Vue.js?
+
+- framework for building web applications
+- can be used for **quickly building prototypes**
+- is also used by **big websites and projects** (e.g. orf.at, GitLab)
+</div>
+
+<div>
+<img src="img/vuejs.png" alt="" width="200" class="mt-5">
+</div>
+</div>
+
+---
+
+## Install and prepare VS Code
+
+- download and install VS Code: https://code.visualstudio.com/
+- install extensions for VS Code:
+   - `Vue (Official)`
+   - `Format Selection As HTML`
+   - `Inline HTML`
+   - `Live Server`
+
+---  
+
+## Use web application template
+
+- **download lecture materials** from: https://github.com/klues/accessible_webtechnology
+  - direct download link: https://github.com/klues/accessible_webtechnology/archive/refs/heads/main.zip
+- **copy the folder** `lecture_1/example_solution` to some private working folder for the lecture
+- **rename the folder** to match the name of your web project, e.g. `my-chat-app`
+- **open the folder in VS Code**
+- **transfer your important components and views** into the template (= Task 1)
+
+---
+
+## Vue.js template overview
+
+---
+
+<!--
+_footer: ''
+_class : lead
+-->
 
 # Accessibility
 
