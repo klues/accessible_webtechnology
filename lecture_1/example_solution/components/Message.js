@@ -1,6 +1,6 @@
 const htmlTemplate = /*html*/`
 <div>
-   <strong>Benjamin (1009)</strong>
+   <strong>Benjamin</strong>
    <p>Hi, how are you?</p>
 </div>
 `

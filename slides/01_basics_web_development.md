@@ -278,7 +278,7 @@ Now let's think of the **HTML structure** in your components:
 ```html
 <!-- component "Message" -->
 <div>
-   <strong>Benjamin (1009)</strong>
+   <strong>Benjamin</strong>
    <p>Hi, how are you?</p>
 </div>
 ```
@@ -338,7 +338,7 @@ For now:
 
 ```html
 <!-- component "Conversation" -->
-<h2>Conversation with Benjamin (1009)</h2>
+<h2>Conversation with Benjamin</h2>
 <button>↺ Update</button>
 <MessageList/>
 <input type="text" placeholder="type message...">
