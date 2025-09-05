@@ -1,10 +1,10 @@
 ---
 marp: true
 theme: fhtw
-footer: 'Accessible Webtechnology – Lesson 1'
+footer: 'Accessible Webtechnology – Introduction'
 paginate: true
 
-title: Accessible Webtechnology – Lesson 1
+title: Accessible Webtechnology – Introduction
 keywords: Webtechnology, HTML, CSS, Javascript, component-based, WCAG, Accessibility, NVDA
 
 ---
@@ -19,7 +19,7 @@ _class : lead
 
 ---
 
-# Course Overview
+# Overview
 
 The courses **Accessible Webtechnology** and **UX aspects of AAT** are connected.
 
@@ -146,3 +146,20 @@ The final grade results of:
 
 * **80%**: Submissions Tasks 1-4
 * **20%**: Final presentation
+
+---
+
+# Course Overview
+
+Four lessons, each 180 minutes:
+
+- **Lesson 1**:
+   - basics of web-development
+   - identify components of your webapp and transfer them to HTML
+- **Lesson 2**:
+   - introduction of Vue.js
+   - add some interactivity to your app
+- **Lesson 3**:
+   - introduction to styling and responsiveness (CSS, Bootstrap)
+   - adapt your app visually
+- **Lesson 4**: improve your app based on the user evaluation (UX Aspects)
