@@ -102,7 +102,7 @@ We will **NOT**:
 - use any backend, database or integration with an external service
 
 <div class="box box-warn">
-  ⚠️ <strong>Important</strong>: <em>Thinking and understanding</em> for yourself is more important than a great polished (generated) result!
+  ⚠️ <strong>Important</strong>: <em>Thinking and understanding</em> for yourself is more important than a great polished (AI generated) result!
 </div>
 
 ---
@@ -113,7 +113,7 @@ Imagine you're creating a **prototype for a messenger app**. The prototype could
 
 - select contacts
 - display conversations
-- input and send messages (not really sending)
+- input and "send" messages (not really sending)
 - maybe some special features
 
 Your app will **NOT** be able to:
