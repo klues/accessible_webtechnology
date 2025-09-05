@@ -63,7 +63,7 @@ footer {
     gap: 1rem;
 }
 
-section img {
+section img:not(.emoji) {
     display: block;
     margin-left: auto;
     margin-right: auto;
