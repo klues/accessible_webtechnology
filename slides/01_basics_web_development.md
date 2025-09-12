@@ -480,8 +480,7 @@ const htmlTemplate = /*html*/`
 <div>
    <strong>Benjamin</strong>
    <p>Hi, how are you?</p>
-</div>
-`
+</div>`
 ```
 <div class="box box-info">
   ℹ️ In fact  we're adding the HTML to a JavaScript variable, which is then used by Vue.js, but we don't have do understand the details for now.
@@ -505,8 +504,7 @@ const htmlTemplate = /*html*/`
    <li>
       <Message/>
    </li>
-</ol>
-`
+</ol>`
 ```
 
 <div class="box box-info">
