@@ -19,19 +19,11 @@ _class : lead
 Web development basics, HTML, Component-based development, Screen reader
 
 ---
-
-# Course Overview
-
----
-# Accessible Web Technology  
 ## Lesson 1 Overview
 
 - Basics of Web Development
-- HTML, CSS, JS roles
-- HTML structure and semantics
-- Component-based development
-- WCAG overview
-- Intro to NVDA screen reader
+- Component-Based Web Development
+- Development with VS Code and Vue.js template
 
 ---
 
@@ -45,7 +37,7 @@ _class : lead
 ---
 
 ## What is the World Wide Web?
-- a worldwide network of computers
+- a worldwide **network of computers**
 - **Clients**: Browsers or devices requesting content
 - **Servers**: Host content and respond to requests
 - **HTTP**: used communication protocol
@@ -81,15 +73,18 @@ _class : lead
 ---
 
 ## HTML basics
-- HTML is a **markup language**
-   -  well defined system for structuring text and information
+HTML is a **markup language** - a well defined system for structuring text and information.
 - **Tags**: reserved keywords for defined elements
    - `<h1></h1>` are tags for a heading level 1
    - tags are like brackets, `<h1>` is an opening tag, `</h1>` a closing tag
+- **Content**:
+   - many tags can have an **element content**
+   - in `<h1>Heading</h1>` the text `Heading` is the content
 - **Attributes**: tags can have additional information
    - `<img src="image.png" alt="Image description">`
    - `src` is the attribute sof defining the image source
    - `alt` is a text describing the image
+
 
 ---
 
@@ -113,7 +108,7 @@ This is a list, it consists of <code>ul</code> and nested <code>li</code> elemen
 
 ## HTML – Content Elements
 
-Elements for actual content of a website:
+There are many elements for actual content of a website:
 - `<h1>`, `<h2>`, `<h3>` etc. – Headings  
 - `<p>` – Text paragraph
 - `<a>` – Link ("**a**nchor")
@@ -133,7 +128,11 @@ HTML elements should be used to define important areas of a page:
 - `<footer>` – Bottom info
 - `<article>`, `<section>` – Structured content
 
-Semantic regions are **important for accessibility**! It gives non-visual users orientation on the webpage.
+<div class="box box-info">
+  ℹ️ Semantic regions are <b>important for accessibility</b>! It gives non-visual users orientation on the webpage.
+</div>
+
+
 
 ---
 
@@ -142,7 +141,9 @@ Semantic regions are **important for accessibility**! It gives non-visual users 
 - `<div>` – Block-level container  
 - `<span>` – Inline container
 
-**Attention:** Use with care – prefer semantic tags when possible
+<div class="box box-warn">
+  ⚠️ <strong>Attention</strong>: Use with care – prefer semantic tags when possible
+</div>
 
 ---
 
@@ -150,7 +151,7 @@ Semantic regions are **important for accessibility**! It gives non-visual users 
 
 Use the online editor of **stackblitz.com** in order to try basic HTML for yourself:
 
-[t1p.de/aw-01a](https://t1p.de/aw-01a)
+<a class="bigger" href="https://t1p.de/aw-01a">t1p.de/aw-01a</a>
 
 ---
 
@@ -167,6 +168,7 @@ h1 {
 
 - `h1` is a **selector**, it selects to which elements the style should apply (all h1 tags)
 - `background-color: yellow` is a **declaration** which defines how the selected elements should look like.
+- more details in **Lecture 3**
 
 ---
 
@@ -185,17 +187,19 @@ for (let fruit of fruits) {
 
 This Javascript code appends a new `<div>` element for each element of an array at the end of the webpage.
 
+More details in **Lecture 2**.
+
 ---
 
 ## Overview of HTML, CSS, JavaScript
 
 <div class="mt-2">
 
-| Technology | Role | Purpose |
-|------|------|---------|
-| **HTML** | Structure | Page content |
-| **CSS**  | Presentation | Styling |
-| **JavaScript**   | Behavior | Interactivity |
+| Technology | Purpose |
+|------|-----------|
+| **HTML** | Structure and page content |
+| **CSS**  | Visual appearance |
+| **JavaScript**   | Interactivity |
 </div>
 
 
@@ -217,7 +221,7 @@ _class : lead
   - Maintainability
   - Readability
   - Scalability
-- Used in **frameworks**
+- Used in frameworks
    - **framework**: standard foundation for building software
    - examples for common web frameworks: **React, Vue.js, Angular**
 
@@ -247,7 +251,7 @@ _class : lead
    - e.g. `MessageList` component used in real conversation view and in settings for defining the style of a conversation.
 - can **contain HTML, CSS and JavaScript**
    - each component has its own content, style and logic
-- normally are defined in separate files, e.g. `MessageList` is defined in `MessageList.js`
+- are normally defined in separate files, e.g. `MessageList` is defined in `MessageList.js`
 
 ---
 
@@ -255,7 +259,7 @@ _class : lead
 
 Let's explore **components in practice**:
 
-- **choose view** of your UI mockup (from lecture *UX Aspects*)
+- **choose a view** (page) of your UI mockup (from lecture *UX Aspects*)
 - **choose a part** where you think it could be implemented as a component
   - your part should have at least **one sub-component**
   - e.g. `MessageList` with sub-components of type `Message`
@@ -273,21 +277,20 @@ Now let's think of the **HTML structure** in your components:
 - create a **HTML block representing your component**, e.g.:
 
 <div class="columns">
-<div>
+   <div>
+      <img src="img/message_bubble.png" alt="" width="600" class="mt-1">
+   </div>
 
-```html
-<!-- component "Message" -->
-<div>
-   <strong>Benjamin</strong>
-   <p>Hi, how are you?</p>
-</div>
-```
+   <div>
 
-</div>
-
-<div>
-<img src="img/message_bubble.png" alt="" width="600" class="mt-1">
-</div>
+   ```html
+   <!-- component "Message" -->
+   <div>
+      <strong>Benjamin</strong>
+      <p>Hi, how are you?</p>
+   </div>
+   ```
+   </div>
 </div>
 
 <div class="mt-2">
@@ -305,6 +308,11 @@ For now:
 - **translate the component to HTML** and use **new HTML tags for your existing components**:
 
 <div class="columns">
+
+<div>
+<img src="img/message_bubble_2x.png" alt="" width="600" class="mt-1">
+</div>
+
 <div>
 
 ```html
@@ -321,9 +329,6 @@ For now:
 
 </div>
 
-<div>
-<img src="img/message_bubble_2x.png" alt="" width="600" class="mt-1">
-</div>
 </div>
 
 ---
@@ -334,6 +339,13 @@ For now:
 - **translate the component to HTML** and use **new HTML tags for your existing components**:
 
 <div class="columns">
+
+
+<div>
+
+<img src="img/conversation_component_view.png" alt="" width="600" class="mt-1">
+</div>
+
 <div class="pt-3">
 
 ```html
@@ -345,14 +357,40 @@ For now:
 <button>Send</button>
 ```
 </div>
-
-<div>
-
-<img src="img/conversation_component_view.png" alt="" width="600" class="mt-1">
-</div>
 </div>
 
 ---
+## Critical AI usage 
+
+Better **think for yourself** instead of trusting some AI tool:
+- you'll learn more
+- AI tools often fail to solve tasks which are not "standard tasks"
+- our quite simple approach of defining HTML-components (without relation to a specific framework) seems to confuse AI
+
+See [this conversation with ChatGPT](https://chatgpt.com/share/68bab87e-a020-8012-a3a7-a9ebf83ece28) as an example how AI fails to solve the task we've done within the last slides.
+
+<div class="box box-warn">
+  ⚠️ <strong>Warning</strong>: relying on AI to solve your tasks may seem efficient at first, but often ends up being more tedious than doing everything yourself.
+</div>
+
+---
+## How to use AI
+
+Tips for good use of AI:
+
+* **ask for specific explanations** instead of general solutions
+  - e.g. `When should I use a HTML div element and when a span?`
+* let it **solve small portions of your task**
+  - e.g. `Give me some HTML which could represent a simple message bubble including a sender name and the message content`
+* **question AI's answers** and let it explain further
+   - e.g. `Why did you use only divs and not other more specific HTML elements?`
+* **ask for alternatives**
+   - e.g. `Could I replace the divs with other HTML elements?`
+
+
+---
+
+
 
 <!--
 _footer: ''
@@ -394,29 +432,144 @@ _class : lead
 
 ---
 
-## Install and prepare VS Code
+## Web application template
 
-- download and install VS Code: https://code.visualstudio.com/
-- install extensions for VS Code:
-   - `Vue (Official)`
-   - `Format Selection As HTML`
-   - `Inline HTML`
-   - `Live Server`
+<div class="box box-info">
+  ℹ️ See steps in Moodle how to get and run the template (<i>Self-study 1</i>).
+</div>
 
----  
-
-## Use web application template
-
-- **download lecture materials** from: https://github.com/klues/accessible_webtechnology
-  - direct download link: https://github.com/klues/accessible_webtechnology/archive/refs/heads/main.zip
-- **copy the folder** `lecture_1/example_solution` to some private working folder for the lecture
-- **rename the folder** to match the name of your web project, e.g. `my-chat-app`
-- **open the folder in VS Code**
-- **transfer your important components and views** into the template (= Task 1)
+**Contents of the template** (`lecture_1/example_solution`):
+* `components`: folder for components (e.g. Message, MessageList, ...)
+* `views`: folder for views of the app (see next slide)
+* `App.js`: component representing your whole app - outer wrapper of all views and components
+* `router.js`: file defining which view should be shown for which URL
+   - e.g. <a href="http://127.0.0.1:5500/my-chat-app/#/users"><em>http://127.0.0.1:5500/my-chat-app/#<strong>/users</strong></em></a> shows `UsersView` component
+* `index.html`: actual HTML file which is rendered by your browser
+   - Vue.js framework does some magic to render your components 🪄
+   - details not important for now
 
 ---
 
-## Vue.js template overview
+## Views in web applications
+
+A **view** of a web application is a component that **represents a whole page**.
+
+Our messenger app example could have the following views:
+* **Login**: login screen
+* **Contacts**: a page showing all contacts
+* **Conversation**: a page showing a single conversation
+* **Settings**: a page for settings
+
+Views are:
+* normally **listed in the page navigation**
+* sometimes **not listed in navigation** - e.g. "Conversation" view is only opened if a contact in "Contacts" is selected
+
+---
+
+## Implement your components in the template
+
+* look at your **components** and **HTML snippets** from before (slides *Define your components* ff.)
+* again start with the **leaf component** (lowest level component), e.g. `Message`
+* duplicate an existing component from folder `components` and name it like your component, e.g. `Message.js`
+* put your HTML in a file named like your component to folder `components`, e.g. `Message.js`
+* insert your HTML to the variable `htmlTemplate` like this:
+
+```javascript
+const htmlTemplate = /*html*/`
+<div>
+   <strong>Benjamin</strong>
+   <p>Hi, how are you?</p>
+</div>
+`
+```
+<div class="box box-info">
+  ℹ️ In fact  we're adding the HTML to a JavaScript variable, which is then used by Vue.js, but we don't have do understand the details for now.
+</div>
+
+
+---
+
+## Implement your components in the template (2)
+
+* **go up the hierarchy** to the next component, e.g. `MessageList`
+* create a new component in folder `components` and name it like your component, e.g. `MessageList.js`
+* in `MessageList.js` again insert your HTML to the variable `htmlTemplate`
+
+```javascript
+const htmlTemplate = /*html*/`
+<ol>
+   <li>
+      <Message/>
+   </li>
+   <li>
+      <Message/>
+   </li>
+</ol>
+`
+```
+
+<div class="box box-info">
+  ℹ️ <b>Note</b>: we're using the <code><Message/></code> component, although it's not a real HTML element. We need to import it to our file,
+</div>
+
+---
+
+## Implement your components in the template (3)
+
+For using your own components within other components (e.g. `<Message>` within `MessageList.js`), we have to import it:
+
+1. **import the component file** at the (top of the file):
+```javascript
+import Message from "./Message.js";
+```
+
+2. **tell Vue.js to use this component** in the template (bottom of the file):
+```javascript
+export default {
+  template: htmlTemplate,
+  components: { Message } // <- this line makes it possible to use <Message/> in the template
+};
+```
+
+---
+
+## Routing
+
+* `App.js` contains the **basic overall structure** of your app
+   * a `<header>` area with a navigation (`<nav>`) including links to your different views (pages)
+   * a `<main>` area including the special element `<router-view>`
+* the element `<router-view>` is a **placeholder for your views**
+   * it depends on the **current navigation** which view is rendered there
+   * the **navigation is linked to the current URL** (see browser's address bar)
+      * e.g. part `/users` in <a href="http://127.0.0.1:5500/my-chat-app/#/users"><em>http://127.0.0.1:5500/my-chat-app/#<strong>/users</strong></em></a>
+
+---
+
+## Routing (2)
+
+The file `router.js` defines a mapping between URLs and views like this:
+
+```js
+import UsersView from './views/UsersView.js';
+
+const routes = [
+  { path: '/users', component: UsersView }
+];
+```
+<div class="box box-info">
+  ℹ️ this mapping means that for URL path <code>/users</code> the component <code>UsersView</code> will be shown in <code><router-view></code>
+</div>
+
+You can **create a link** somewhere in the app which navigates to a view:
+```html
+<router-link to="/users">Users</router-link>
+```
+
+---
+
+## Views and components as shown in the browser
+
+<img class="mt-1" src="./img/solution_with_components.png" alt="screenshot of the example solution with highlighting which area is represented by which file. App.js covers the whole page, and the components / files Conversation.js, MessageList.js, Message.js are part of the hierarchical structured page, which in total shows an example conversation of the messenger app" height="550" />
 
 ---
 
@@ -500,46 +653,3 @@ Please provide your data:
 | Current item | `Insert + Tab` |
 
 > Test your sites using NVDA + Firefox
-
----
-
-## Summary
-
-- Understand client/server and web tech roles  
-- Write clean, semantic HTML  
-- Think in components  
-- Design for accessibility (WCAG)  
-- Start using NVDA for testing
-
----
-
-## Next Steps
-
-🔧 Practice:
-- Build a simple semantic page  
-- Use components for layout  
-- Test with NVDA
-
-💡 Accessibility is not a feature — it's a foundation.
-
----
-
-# Test colums
-
-<div class="columns">
-<div>Test Col 12</div>
-<div>
-Test Col 21
-
-hallo `test`
-
-`test`
-</div>
-<div>
-
-`forEach`
-
-</div>
-</div>
-
-`forEach`

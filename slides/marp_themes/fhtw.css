@@ -97,6 +97,10 @@ big {
     font-size: 1.5rem;
 }
 
+.bigger {
+    font-size: 3rem;
+}
+
 .mt-1 {
     margin-top: 1em;
 }

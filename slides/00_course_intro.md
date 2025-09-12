@@ -162,4 +162,4 @@ Four lessons, each 180 minutes:
 - **Lesson 3**:
    - introduction to styling and responsiveness (CSS, Bootstrap)
    - adapt your app visually
-- **Lesson 4**: improve your app based on the user evaluation (UX Aspects)
+- **Lesson 4**: improve your app based on the user evaluation (lecture *UX Aspects*)
