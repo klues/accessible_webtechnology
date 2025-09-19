@@ -1,3 +1,4 @@
+import dataService from "../service/dataService.js";
 import MessageList from "./MessageList.js";
 
 const htmlTemplate = /*html*/`
@@ -7,27 +8,25 @@ const htmlTemplate = /*html*/`
 <button @click="addMessage()">Send</button>
 `
 
+const KEY_MESSAGE_DATA = "KEY_MESSAGE_DATA";
+
 export default {
   template: htmlTemplate,
   components: { MessageList },
   data() {
     return {
-      messages: [
-        {
-          sender: "Benjamin",
-          text: "Hello, how are you?"
-        },
-        {
-          sender: "Peter",
-          text: "Fine, how are you?"
-        }
-      ],
+      messages: [], // TODO: use dataService.get() in order to get saved messages
       newText: ""
     }
   },
   methods: {
     addMessage() {
-      // TODO: add a new message with "sender" and "text" to array "messages"
+      this.messages.push({
+        sender: "Benjamin",
+        text: this.newText
+      });
+      // TODO: use dataService.save() in order to save the new message
     }
+    // TODO: clear input field after sending a message
   }
 };

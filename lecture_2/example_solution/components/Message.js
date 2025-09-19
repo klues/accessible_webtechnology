@@ -1,10 +1,11 @@
 const htmlTemplate = /*html*/`
 <div>
-   <strong>Benjamin</strong>
-   <p>Hi, how are you?</p>
+   <strong>{{ message.sender }}</strong>
+   <p>{{ message.text }}</p>
 </div>
 `
 
 export default {
-  template: htmlTemplate
+  template: htmlTemplate,
+  props: ["message"]
 };

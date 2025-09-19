@@ -10,7 +10,10 @@ const htmlTemplate = /*html*/`
             <ul>
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/users">Users</router-link></li>
-                <li><router-link to="/conversation">Conversation</router-link></li>
+                <li><router-link to="/message-list-basic">Demo 1: MessageList (basic)</router-link></li>
+                <li><router-link to="/conversation">Demo 2: Conversation (pass props)</router-link></li>
+                <li><router-link to="/conversation-with-save">Demo 3: Conversation (with save)</router-link></li>
+                <li><router-link to="/settings">Settings</router-link></li>
             </ul>
         </nav>
     </header>
