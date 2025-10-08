@@ -221,7 +221,7 @@ Usage of method `addMessage()` in HTML:
 
 ## Vue.js basics: try for yourself
 
-* open `lecture2/example_solution` in VS Code
+* open `lecture2/example_solution_basic` in VS Code
 * start "Live Server" plugin
 * examine `Demo 1: MessageList (basic)` and related code:
    * `MessageBasic.js`
@@ -264,7 +264,7 @@ Usage of the component + prop in HTML:
 
 ## Vue.js props: try for yourself
 
-* open `lecture2/example_solution` in VS Code
+* open `lecture2/example_solution_basic` in VS Code
 * start "Live Server" plugin
 * examine `Demo 2: Conversation (pass props)` and related code:
    * `Conversation.js`
@@ -281,7 +281,7 @@ Usage of the component + prop in HTML:
    * no (easy) way to transfer data to another device (e.g. log in with the same user)
    * data is stored in **key / value pairs**
 
-Example `lecture2/example_solution` contains a file `dataService.js`:
+Example `lecture2/example_solution_basic` contains a file `dataService.js`:
 ```js
 import dataService from "../service/dataService.js";
 
@@ -300,12 +300,16 @@ let data = dataService.get(DATA_KEY); // data now contains "Hello"
 
 ## localStorage: try for yourself
 
-* open `lecture2/example_solution` in VS Code
+* open `lecture2/example_solution_basic` in VS Code
 * start "Live Server" plugin
 * examine `Demo 3: Conversation (with save)` and related code:
    * `ConversationWithSave.js`
    * `views/SettingsView.js`
 * try to find solution for the `TODO` comments in these files
+
+<div class="box box-info">
+  ℹ️ see <code>lecture2/example_solution_complete</code> for a more advanced example of the chat app, which can save chats for different contacts.
+</div>
 
 ---
 
