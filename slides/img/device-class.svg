@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 885.7 411.27" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Mobile Geräte – Geräteklassen</title>
+  <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Mobile Geräte – Geräteklassen</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect x="-.0008561" width="885.7" height="411.27" fill="#fafafa" stroke-width="1.2072"/>
+ <path d="m24.999 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m64.999 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m105 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m185 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m225 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m305 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m345 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m425 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m465 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m545 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m585 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m665 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m625 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m702.2 183v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m3.9991 161.05h877.54" fill="none" stroke="#666" stroke-width="1px"/>
+ <path d="m144 409.17v-245.67" fill="none" stroke="#949494" stroke-width="1px"/>
+ <path d="m265 409.17v-245.67" fill="none" stroke="#949494" stroke-width="1px"/>
+ <path d="m385 409.17v-245.67" fill="none" stroke="#949494" stroke-width="1px"/>
+ <path d="m504.1 409.17v-245.67" fill="none" stroke="#949494" stroke-width="1px"/>
+ <rect x="42.81" y="242.66" width="35.378" height="24.078" fill="#6691cc" stroke="#666" stroke-width=".62155"/>
+ <text x="44.999146" y="256.57556" fill="#ffffff" font-family="sans-serif" font-size="7px">360x640</text>
+ <rect x="25.343" y="185.07" width="31.323" height="24.313" fill="#6691cc" stroke="#666" stroke-width=".68715"/>
+ <text x="24.999144" y="198" fill="#ffffff" font-family="sans-serif" font-size="7px">320x534</text>
+ <rect x="33.836" y="213.79" width="31.325" height="24.325" fill="#6691cc" stroke="#666" stroke-width=".67468"/>
+ <text x="35.999146" y="227.30185" fill="#ffffff" font-family="sans-serif" font-size="7px">320x568</text>
+ <rect x="91.024" y="271.47" width="46.949" height="87.28" fill="#6691cc" stroke="#666" stroke-width="1.0506"/>
+ <text x="96.72197" y="284.76523" fill="#ffffff" font-family="sans-serif" font-size="8px">480x800</text>
+ <rect x="47.014" y="271.7" width="35.971" height="68.819" fill="#6691cc" stroke="#666" stroke-width="1.0286"/>
+ <text x="49.550034" y="285.51273" fill="#ffffff" font-family="sans-serif" font-size="7px">375x667</text>
+ <rect x="187.76" y="184.49" width="75.375" height="49.375" fill="#6691cc" stroke="#666" stroke-width=".62508"/>
+ <text x="191.94633" y="210.58157" fill="#ffffff" font-family="sans-serif" font-size="13px">720x1280</text>
+ <rect x="233.14" y="241.25" width="80.317" height="49.317" fill="#6691cc" stroke="#666" stroke-width=".68344"/>
+ <text x="241.8421" y="269.20047" fill="#ffffff" font-family="sans-serif" font-size="13px">840 x 390</text>
+ <rect x="281.91" y="184.34" width="99.189" height="49.189" fill="#6691cc" stroke="#666" stroke-width=".81063"/>
+ <text x="296.59204" y="210.59573" fill="#ffffff" font-family="sans-serif">1024 x 768</text>
+ <rect x="431.43" y="257.41" width="134.07" height="64.069" fill="#6691cc" stroke="#666" stroke-width=".93072"/>
+ <text x="460.74969" y="292.92548" fill="#ffffff" font-family="sans-serif">1366 x 768</text>
+ <rect x="450.94" y="329.98" width="143.15" height="64.151" fill="#6691cc" stroke="#666" stroke-width=".84944"/>
+ <text x="485.51804" y="362.4278" fill="#ffffff" font-family="sans-serif">1440 x 900</text>
+ <rect x="397.89" y="185.22" width="125.1" height="64.099" fill="#6691cc" stroke="#666" stroke-width=".90112"/>
+ <text x="425.80078" y="210.59573" fill="#ffffff" font-family="sans-serif">1260 x 800</text>
+ <rect x="548.14" y="184.79" width="159.06" height="79.057" fill="#6691cc" stroke="#666" stroke-width=".94266"/>
+ <text x="592.33453" y="210.59573" fill="#ffffff" font-family="sans-serif">1600 x 900</text>
+ <g fill="#aaa" font-family="sans-serif" font-size="14px">
+  <text x="15" y="174">300</text>
+  <text x="58" y="174">400</text>
+  <text x="99" y="174">500</text>
+  <text x="175" y="174">700</text>
+  <text x="213" y="174">800</text>
+  <text x="290" y="174">1000</text>
+  <text x="331" y="174">1100</text>
+  <text x="408" y="174">1300</text>
+  <text x="449" y="174">1400</text>
+  <text x="528" y="174">1600</text>
+  <text x="608" y="174">1800</text>
+  <text x="691" y="174">2000</text>
+ </g>
+<g>
+ <text x="38" y="150" fill="#666" font-family="sans-serif" font-size="16px">300 - 480</text>
+ <text x="160" y="150" fill="#666" font-family="sans-serif" font-size="16px">481 - 768</text>
+ <text x="400" y="150" fill="#666" font-family="sans-serif" font-size="16px">769 - 1279</text>
+ <text x="700" y="150" fill="#666" font-family="sans-serif" font-size="16px">1280+</text>
+</g>
+ <path d="m781.76 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m741.76 180v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m818.96 183v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <path d="m858.29 183v222" stroke="#999" stroke-dasharray="1, 1"/>
+ <rect x="687.87" y="269.38" width="191.15" height="79.148" fill="#6691cc" stroke="#666" stroke-width=".85246"/>
+ <text x="743.11401" y="307.86664" fill="#ffffff" font-family="sans-serif">1920 x 1080</text>
+ <text x="741.94293" y="331.87335" fill="#ffffff" font-family="sans-serif">2560 x 1440</text>
+
+<g transform="translate(0 -10)">
+ <g id="handy">
+  <rect x="42.815" y="38" width="44.365" height="88" rx="3.7795" fill="#fff" stroke="#3f75bf" stroke-linecap="round" stroke-width="2"/>
+  <path d="m43.009 48h44.174" fill="none" stroke="#3f75bf" stroke-width="2"/>
+  <circle cx="64.998" cy="120" r="3" fill="none" stroke="#3f75bf" stroke-linecap="round" stroke-width="2"/>
+  <path d="m52.683 43h10.709" fill="none" stroke="#3f75bf" stroke-linecap="round" stroke-width="2"/>
+  <circle cx="70" cy="43" r="1.5" fill="#3f75bf"/>
+  <path d="m43.009 112h44.174" fill="none" stroke="#3f75bf" stroke-width="2"/>
+ </g>
+
+ <g fill="none" stroke="#3f75bf" stroke-linecap="round">
+  <path d="m447.48 25.952c-3.2173 0-5.807 2.5897-5.807 5.807v67.017h109.87v-67.017c0-3.2173-2.5897-5.807-5.807-5.807z" stroke-width="2"/>
+  <rect x="431.71" y="118.38" width="129.8" height="4.2218" rx=".58209" stroke-width="1.0868"/>
+  <path d="m442.02 100.08h109.19c0.31951 0 0.27348 2.1336 0.57676 2.5843l9.1347 13.575c0.30327 0.45091-0.25724 2.5844-0.57675 2.5844h-127.45c-0.31951 0-0.88002-2.1337-0.57675-2.5844l9.1347-13.575c0.30328-0.45093 0.25725-2.5843 0.57675-2.5843z" stroke-width="1.5365"/>
+  <path d="m479.32 109.46c-1.3338 0-2.2685 0.3553-2.4073 0.74257l-3.0731 8.5699h45.548l-3.0731-8.5699c-0.1389-0.38727-1.0736-0.74257-2.4073-0.74257z" stroke-width="1.5365"/>
+  <rect x="444.42" y="29.947" width="103.49" height="65.344" rx=".58209" stroke-width="1.5365"/>
+ </g>
+ <g>
+  <rect x="655.51" y="27.536" width="137.42" height="85.78" rx=".87531" fill="none" stroke-width=".29177"/>
+  <path d="m709.95 118.93-1.1671 0.67107s-1.1671 6.3898-1.7506 10.737c-0.8753 3.8805-2.0424 6.9149-2.3342 7.4985h-1.167c-0.5836 0-0.8753 0.40848-0.8753 0.96284v1.984c0 0.52519 0.2917 0.93367 0.8753 0.93367h41.431c0.2918 0 0.8753-0.40848 0.8753-0.93367v-1.984c0-0.55436-0.5835-0.96284-0.8753-0.96284h-2.3341c-0.2918-0.58354-1.4589-3.6179-2.0424-7.4985-1.4589-4.3474-2.626-10.737-2.626-10.737l-0.5835-0.67107h-15.756z" fill="none" stroke="#3f75bf" stroke-width="2"/>
+  <path d="m655.97 25.791c-1.3421 0-2.801 1.1612-2.801 2.9119v87.531c0 1.5756 1.4588 2.9177 2.801 2.9177h136.55c1.7506 0 2.9177-1.2546 2.9177-2.9177v-87.531c0-1.6047-1.1671-2.9119-2.9177-2.9119zm1.7506 3.4954h133.05c0.5835 0 0.8753 0.40847 0.8753 0.96283v80.237c0 0.58353-0.2918 0.8753-0.8753 0.8753h-133.05c-0.29177 0-0.87531-0.40847-0.87531-0.93366v-80.149c0-0.55436 0.58354-0.96284 0.87531-0.96284z" fill="none" stroke="#3f75bf" stroke-width="2"/>
+  <path d="m726.29 114.63a1.8965 1.8965 0 0 1-3.793 0 1.8965 1.8965 0 1 1 3.793 0z" fill="#b7b7b7" stroke-width=".29177"/>
+ </g>
+ <g id="tablet">
+  <rect x="359.75" y="50.337" width="99.857" height="73.541" rx="4.9446" fill="#fff" stroke="#3f75bf" stroke-linecap="round" stroke-width="2.6165"/>
+  <rect x="371.08" y="56.105" width="81.14" height="60.563" fill="#fff" stroke="#3f75bf" stroke-linecap="round" stroke-width="1.3082"/>
+  <circle cx="364.71" cy="86.837" r="2.7938" fill="#3f75bf"/>
+ </g>
+ 
+	<use xlink:href="#tablet" transform="translate(180 -388) rotate(90 50 100) "/>
+	<use xlink:href="#handy" transform="translate(100 -13) rotate(90 50 100) "/>
+</g>
+ 
+</svg>

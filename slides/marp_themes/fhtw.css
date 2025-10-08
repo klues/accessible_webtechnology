@@ -129,6 +129,20 @@ big {
     padding-top: 3em;
 }
 
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.border-gray {
+  border: 1px solid gray
+}
+
+.d-flex img {
+  margin: 1em;
+}
+
 .full-width {
     max-width: 100%;
 }
