@@ -384,15 +384,16 @@ The **Web Content Accessibilty Guidelines (WCAG)** define these basic principles
 
 ---
 
-## NVDA: Getting Started
-
-### Basic Shortcuts
+## NVDA: Basic Shortcuts
 
 | Action | Key |
 |--------|-----|
-| Start reading | `Insert + ↓` |
+| Read next element | `Arrow down [↓]` |
+| Read previous element | `Arrow up [↑]` |
 | Stop reading | `Ctrl` |
 | Next heading | `H` |
 | Next link | `K` |
-| Previous heading | `Shift + H` |
+| Next landmark (region) | `D` |
+| Previous [heading / link / landmark] | `Shift + [H / K / D]` |
 | Change to input mode | `NVDA + Space` |
+| Change speak mode (turn on/off) | `NVDA + S` (2x) |
