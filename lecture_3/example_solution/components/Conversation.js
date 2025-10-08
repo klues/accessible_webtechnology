@@ -1,9 +1,10 @@
+import dataService from "../service/dataService.js";
 import MessageList from "./MessageList.js";
 
 const htmlTemplate = /*html*/`
-<h2>Conversation with Benjamin</h2>
+<h2>Conversation with {{ contactInfo.name }}</h2>
 <MessageList :messages="messages"/>
-<input type="text" v-model="newText" placeholder="type message...">
+<input type="text" v-model="newText" placeholder="type message..." @keydown.enter="addMessage()">
 <button @click="addMessage()">Send</button>
 `
 
@@ -12,22 +13,25 @@ export default {
   components: { MessageList },
   data() {
     return {
-      messages: [
-        {
-          sender: "Benjamin",
-          text: "Hello, how are you?"
-        },
-        {
-          sender: "Peter",
-          text: "Fine, how are you?"
-        }
-      ],
-      newText: ""
+      messages: [],
+      newText: '',
+      contactInfo: {}
     }
   },
   methods: {
     addMessage() {
-      // TODO: add a new message with "sender" and "text" to array "messages"
+      this.messages.push({
+        sender: "Benjamin",
+        text: this.newText
+      });
+      dataService.saveMessages(this.messages, this.$route.params.contactId);
+      this.newText = '';
     }
+  },
+  mounted() {
+    console.log("opened conversation with contactId:", this.$route.params.contactId);
+    this.messages = dataService.getMessages(this.$route.params.contactId);
+    this.contactInfo = dataService.getContact(this.$route.params.contactId);
+    console.log("contactInfo:", this.contactInfo);
   }
 };
