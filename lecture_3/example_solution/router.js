@@ -4,11 +4,11 @@ import SettingsView from './views/SettingsView.js';
 import CallsView from './views/CallsView.js';
 
 const routes = [
-  { path: '/users', component: ChatsView },
+  { path: '/chats', component: ChatsView },
   { path: '/calls', component: CallsView },
   { path: '/conversation/:contactId', component: ConversationView },
   { path: '/settings', component: SettingsView },
-  { path: '/:pathMatch(.*)*', redirect: '/users' }
+  { path: '/:pathMatch(.*)*', redirect: '/chats' }
 ];
 
 export const router = VueRouter.createRouter({
