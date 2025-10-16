@@ -384,7 +384,7 @@ The **Web Content Accessibilty Guidelines (WCAG)** define these basic principles
 
 - Free screen reader for Windows  
 - Download: [nvaccess.org](https://www.nvaccess.org)
-- also see *Self-Study 1* in Moodle for info about other screen readers on other platforms
+- also see *Self-Study - preparations* in Moodle for info about other screen readers on other platforms
 
 ---
 

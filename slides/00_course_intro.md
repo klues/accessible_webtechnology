@@ -123,43 +123,35 @@ Your app will **NOT** be able to:
 
 ---
 
-# Evaluation of performance
-
-In total there are **4 Submissions** which focus on these topics:
-
-1. Basic HTML templates and components
-2. Interactivity using Javascript
-3. Styling using CSS
-4. Final submission including improvements from usability test from lecture "UX Aspects"
-
-**Each submission consists of:**
-
-* current state of the web app prototype
-* explanation of important implementation details
-* explanation of important difficulties and learnings
-* test protocol of screen reader tests of specific use-cases
-
---- 
-# Grading
-
-The final grade results of:
-
-* **80%**: Submissions Tasks 1-4
-* **20%**: Final presentation
-
----
-
 # Course Overview
 
-Four lessons, each 180 minutes:
+Four lectures, each 180 minutes:
 
-- **Lesson 1**:
+- **Lecture 1**:
    - basics of web-development
    - identify components of your webapp and transfer them to HTML
-- **Lesson 2**:
-   - introduction of Vue.js
+- **Lecture 2**:
+   - introduction to Vue.js
    - add some interactivity to your app
-- **Lesson 3**:
+- **Lecture 3**:
    - introduction to styling and responsiveness (CSS, Bootstrap)
    - adapt your app visually
-- **Lesson 4**: improve your app based on the user evaluation (lecture *UX Aspects*)
+- **Lecture 4**: improve your app based on the user evaluation (lecture *UX Aspects*)
+
+--- 
+
+# Grading
+
+The final grade results **5 tasks** (`80%`) and a **final presentation** (`20%`).
+The presentation is a **shared class** from lectures *UX Aspects* and *Accessible Webtechnology* (~15min). 
+
+## Tasks (`80%`)
+* **Task 1**: `(mandatory)` basic HTML components / views of your app
+* **Task 2**: `(mandatory)` add some interactivity to your app
+* **Task 3**: style your app
+* **Task 4**: `60%` final submission (including improvements from user evaluation - *UX Aspects*)
+* **Task 5**: `20%` video (screencast) showing a main use case within your app using a screenreader
+
+**Mandatory:** Task 1, 2, 4 and final presentation
+
+**Task 1-3 are not graded individually**, but they help to **work step-by-step** in order to achieve the final submission (Task 4).
