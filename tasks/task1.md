@@ -1,4 +1,4 @@
-# Task 1
+# Task 1 - implement components
 
 In this task you'll identify and basically **implement components** of your web application. Your **UI prototype** from course *UX Aspects* is the basis of this task.
 
