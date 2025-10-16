@@ -253,21 +253,21 @@ _class : lead
 
 ## Responsive design - screen sizes
 
-<img class="mt-1" src="./img/device-class.svg" alt="" height="550" />
+<img class="mt-1" src="./img/device-class.svg" alt="different screen sizes from smartphone 300-480px on the left to desktop screens like 1920x1080px on the right" height="550" />
 
 ---
 
 ## Website (desktop) - navigation bar
 
-<img class="mt-1 border-gray" src="./img/menu-desktop.png" alt="" height="550" />
+<img class="mt-1 border-gray" src="./img/menu-desktop.png" alt="screenshot of UAS Technikum Wien homepage with navigation bar on the top highlighted" height="550" />
 
 ---
 
 ## Website (mobile) - burger menu
 
 <div class="d-flex">
-<img class="border-gray" src="./img/menu-mobile-1.png" alt="" height="550" />
-<img class="border-gray" src="./img/menu-mobile-2.png" alt="" height="550" />
+<img class="border-gray" src="./img/menu-mobile-1.png" alt="screenshot of mobile UAS Technikum Wien homepage with burger menu highlighted" height="550" />
+<img class="border-gray" src="./img/menu-mobile-2.png" alt="UAS Technikum Wien homepage with burger menu expanded" height="550" />
 </div>
 
 
@@ -276,7 +276,7 @@ _class : lead
 
 ## Mobile app - bottom navigation bar
 
-<img class="mt-1 border-gray" src="./img/menu-instagram-bottom.png" alt="" height="550" />
+<img class="mt-1 border-gray" src="./img/menu-instagram-bottom.png" alt="screenshot of instagram mobile homepage with bottom navigation bar highlighted" height="550" />
 
 ---
 
@@ -307,3 +307,79 @@ _class : lead
 # Bootstrap
 
 ---
+
+## Responsive design with bootstrap
+
+<img class="mt-1" src="./img/bootstrap-responsive.png" alt="example how elements could be placed in a 12-column grid system on different screen sizes, left smartphone - three full width elements stacked, right desktop, three four column elements next to each other" height="450" />
+
+See bootstrap Grid system documentation: https://getbootstrap.com/docs/5.0/layout/grid/
+
+---
+
+## Bootstrap components
+
+Bootstrap offers predefined components, which can be used, e.g. *Card*.
+
+<div class="columns mt-2">
+<div>
+HTML:
+
+<div class="big">
+
+```html
+<div class="card">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text"> Text ... </p>
+    <a href="#" class="btn btn-primary">Go ...</a>
+  </div>
+</div>
+```
+</div>
+</div>
+
+   <div>
+      <img src="img/bootstrap-card.png" alt="visual bootstrap card example - image, title, text, button" width="300">
+   </div>
+</div>
+
+See bootstrap component docs: https://getbootstrap.com/docs/5.0/components/card/
+
+---
+
+## Bootstrap helpers
+
+There are **helper classes** in bootstrap which can be useful to use, e.g. for spacing:
+
+* `m`: margin, e.g. `m-1`, `m-2`, ... for spacing around the element
+* `mt`: margin-top, e.g. `mt-1`, `mt-2`, ...
+* `mr`: margin-right
+* `mb`: margin-bottom
+* `ml`: margin-left
+
+* `p`: padding, e.g. `p-1`, `p-2`, ... for spacing within the element (to the border)
+* `pt`, `pr`, `pb`, `pl` ... like for margin
+
+See docs: https://getbootstrap.com/docs/5.0/utilities/spacing/
+
+---
+
+## Bootstrap - screenreader only
+
+For accessibility sometimes its helpful to have some code **only visible for screenreaders**, not for sighted users.
+
+Bootstrap offers the classes `visually-hidden` and `visually-hidden-focusable` for that purpose.
+
+<div class="medium">
+
+```html
+<h2 class="visually-hidden">Title for screen readers</h2>
+<a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+```
+</div>
+
+Try to press `Tab` key on websites and you'll sometimes find these *skip links*:
+<img src="img/orf.at-visually-hidden.png" alt="skip link on orf.at, which uses something like visually-hidden-focusable" width="600" class="mt-1 mb-2">
+
+See docs: https://getbootstrap.com/docs/5.0/helpers/visually-hidden/
