@@ -260,7 +260,7 @@ _class : lead
 
 Let's explore **components in practice**:
 
-- **choose a view** (page) of your UI mockup (from lecture *UX Aspects*)
+- **choose a view** (page) of your UI mockup (from course *UX Aspects*)
 - **choose a part** where you think it could be implemented as a component
   - your part should have at least **one sub-component**
   - e.g. `MessageList` with sub-components of type `Message`

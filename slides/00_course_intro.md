@@ -136,22 +136,22 @@ Four lectures, each 180 minutes:
 - **Lecture 3**:
    - introduction to styling and responsiveness (CSS, Bootstrap)
    - adapt your app visually
-- **Lecture 4**: improve your app based on the user evaluation (lecture *UX Aspects*)
+- **Lecture 4**: improve your app based on the user evaluation (course *UX Aspects*)
 
 --- 
 
 # Grading
 
-The final grade results **5 tasks** (`80%`) and a **final presentation** (`20%`).
-The presentation is a **shared class** from lectures *UX Aspects* and *Accessible Webtechnology* (~15min). 
+The final grade results of **5 tasks** (`80%`) and a **final presentation** (`20%`).
+The presentation is a **shared class** from courses *UX Aspects* and *Accessible Webtechnology* (~15min). 
 
 ## Tasks (`80%`)
-* **Task 1**: `(mandatory)` basic HTML components / views of your app
-* **Task 2**: `(mandatory)` add some interactivity to your app
-* **Task 3**: style your app
+* **Task 1**: `5%` basic HTML components / views of your app
+* **Task 2**: `5%` add some interactivity to your app
+* Task 3: style your app
 * **Task 4**: `60%` final submission (including improvements from user evaluation - *UX Aspects*)
-* **Task 5**: `20%` video (screencast) showing a main use case within your app using a screenreader
+* Task 5: `20%` video (screencast) showing a main use case within your app using a screenreader
 
-**Mandatory:** Task 1, 2, 4 and final presentation
+**Mandatory:** Task 1, 2, 4 and final presentation (each minimum 50%)
 
-**Task 1-3 are not graded individually**, but they help to **work step-by-step** in order to achieve the final submission (Task 4).
+**Task 3 is not graded individually**, but it helps to **work step-by-step** in order to achieve the final submission (Task 4).
