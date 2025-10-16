@@ -1,7 +1,7 @@
 import Message from "./Message.js";
 
 const htmlTemplate = /*html*/`
-<ol>
+<ol class="message-list">
    <li v-for="message of messages">
       <Message :message="message"/>
    </li>

@@ -1,11 +1,16 @@
 const htmlTemplate = /*html*/`
-<div>
+<div :class="getClass()">
    <strong>{{ message.sender }}</strong>
-   <p>{{ message.text }}</p>
+   <div>{{ message.text }}</div>
 </div>
 `
 
 export default {
   template: htmlTemplate,
-  props: ["message"]
+  props: ["message"],
+  methods: {
+    getClass() {
+      return this.message.sender === "Benjamin" ? "message own-message" : "message other-message";
+    }
+  }
 };
