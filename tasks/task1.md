@@ -2,7 +2,7 @@
 
 In this task you'll identify and basically **implement components** of your web application. Your **UI prototype** from course *UX Aspects* is the basis of this task.
 
-## What do do
+## What to do
 * **identify all views** of your app (e.g. Login, Settings, Help, ...)
 * **identify parts** of your UI prototype which **could be implemented as components** -> see messenger example in the slides
 * **translate the components** to a **sensible HTML representation** -> compare with examples in the slides
