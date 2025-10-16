@@ -111,6 +111,146 @@ Use the online editor of **stackblitz.com** in order to try basic CSS for yourse
 
 ---
 
+## Style components
+
+Let's improve the style of our `MessageList` component.
+
+<div class="columns mt-2">
+   <div>
+      We have:
+      <img src="img/messages-no-styling.png" alt="2 messages without styling, just plain text as a list with 2 items" width="450" class="mt-1">
+   </div>
+
+   <div>
+      We want:
+      <img src="img/messages-with-styling.png" alt="2 messages with styling - 2 bubbles in different colors" width="600" class="mt-1">
+   </div>
+</div>
+
+
+HMTL: 
+```html
+<div>
+   <strong>{{ message.sender }}</strong>
+   <div>{{ message.text }}</div>
+</div>
+```
+
+---
+
+## Styling step-by-step (1)
+
+**Step 1**: make elements selectable via CSS
+
+<div class="big">
+
+```html
+<div id="message-1" class="message">
+   <strong>{{ message.sender }}</strong>
+   <div>{{ message.text }}</div>
+</div>
+```
+
+```css
+#message-1 {
+  /* some styles - selection by ID*/
+}
+
+.message {
+  /* some styles - selection by class*/
+}
+```
+<div>
+
+---
+
+## Styling step-by-step (2)
+
+**Step 2**: add CSS declarations
+
+<div class="medium">
+
+```html
+<div class="message">
+   <strong>{{ message.sender }}</strong>
+   <div>{{ message.text }}</div>
+</div>
+```
+
+```css
+.message {
+  border: 1px solid gray;
+  margin-top: 1em;
+  border-radius: 10px; /* roundness of borders */
+  padding-left: 1em;
+  width: 90%;
+}
+
+ol {
+  list-style-type: none; /* no "1. 2. 3." in list */
+}
+```
+<div>
+
+---
+
+## Style components - intermediate result
+
+<div class="columns mt-4">
+   <div>
+      We now have:
+      <img src="img/messages-itermediate-styling.png" alt="2 messages with basic styling, 2 white bubbles, but no different colors for different senders" width="550" class="mt-1">
+   </div>
+
+   <div>
+      We want:
+      <img src="img/messages-with-styling.png" alt="2 messages with styling - 2 bubbles in different colors" width="600" class="mt-1">
+   </div>
+</div>
+
+---
+
+## Styling step-by-step (3)
+
+**Step 3**: differentiate between senders
+
+
+```html
+<div :class="getClass()">
+   <strong>{{ message.sender }}</strong>
+   <div>{{ message.text }}</div>
+</div>
+```
+
+```js
+getClass() {
+  return this.message.sender === "Benjamin" ? "message own-message" : "message other-message";
+}
+```
+
+```css
+.own-message {
+    margin-left: 10%;
+    background-color: rgb(228, 255, 228);
+}
+
+.other-message {
+    background-color: whitesmoke;
+}
+```
+
+---
+
+
+<!--
+_footer: ''
+_class : lead
+-->
+
+# Responsive Design
+
+---
+
 ## Responsive design - screen sizes
 
 <img class="mt-1" src="./img/device-class.svg" alt="" height="550" />
@@ -152,9 +292,18 @@ Proper responsive design is **beyond the scope of this lecture**. Do this for yo
 * select **one menu style** (see last slides)
 * base your design on these decisions
 * see examples for different menus in `lecture_3/example_solution`
+   * `indexNavbar.html`: example of a functional navbar menu (mobile and desktop)
+   * `indexBottomNav.html`: example of a functional bottom navigation menu (mobile)
+
 <div>
 
 ---
 
-## 
+<!--
+_footer: ''
+_class : lead
+-->
 
+# Bootstrap
+
+---
