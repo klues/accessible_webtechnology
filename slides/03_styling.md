@@ -105,6 +105,10 @@ Use the online editor of **stackblitz.com** in order to try basic CSS for yourse
 
 <a class="bigger" href="https://t1p.de/aw-03">t1p.de/aw-03</a>
 
+<div class="box box-info">
+  ℹ️ <strong>Info</strong>: You can also open <code>lecture_3/lecture_examples/3_css/index.html</code> in VS Code and use the "Live Server" plugin for showing it in the browser (see <em>Self-study 1</em>).
+</div>
+
 ---
 
 ## Responsive design - screen sizes
