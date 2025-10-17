@@ -155,3 +155,20 @@ The presentation is a **shared class** from courses *UX Aspects* and *Accessible
 **Mandatory:** Task 1, 2, 4 and final presentation (each minimum 50%)
 
 **Task 3 is not graded individually**, but it helps to **work step-by-step** in order to achieve the final submission (Task 4).
+
+---
+
+# ECTS workload breakdown
+
+*Accessible webtechnology* has **3 ECTS**, so about **75 hours** workload.
+
+These consist of:
+* **1h** preparations
+* **14h attendance**
+   * 4x 180 minutes main lectures
+   * 1x 90 minutes final lecture for presentations (shared with *UX aspects*)
+* **60h for tasks**
+   * 54h for tasks 1-4 (implementing)
+   * 2 hours screen reader video (Task 5)
+   * 4 hours preparation for presentation
+
