@@ -216,6 +216,12 @@ pre, pre code {
   color: rgb(215, 0, 0) !important;
 }
 
+/* The ${ ... } part */
+.hljs-subst {
+  color: #715100 !important; /* bright yellow/orange */
+  font-weight: bold;
+}
+
 /* Inline code */
 code {
   background: #f8f8f8 !important;

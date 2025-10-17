@@ -92,6 +92,8 @@ HTML is a **markup language** - a well defined system for structuring text and i
 ## HTML example
 
 Simple example of some HTML markup:
+<div class="big">
+
 ```html
 <h1>This is a heading</h1>
 <p>Some text paragraph after the heading.</p>
@@ -104,6 +106,13 @@ This is a list, it consists of <code>ul</code> and nested <code>li</code> elemen
   <li>Item 3</li>
 </ul>
 ```
+</div>
+
+---
+
+## HTML example - rendered in browser
+
+<img class="mt-2 border-gray" src="./img/html-example-browser.png" alt="the HTML snippet from the last slide as rendered in the browser. headings are shown bigger, list is shown with bullet points" height="450" />
 
 ---
 
@@ -165,11 +174,15 @@ Use the online editor of **stackblitz.com** in order to try basic HTML for yours
 **Cascading Style Sheets (CSS)** are used for **visual styling** of HTML documents.
 
 Example of a **CSS rule**:
+
+<div class="big">
+
 ```css
 h1 {
   background-color: yellow;
 }
 ```
+</div>
 
 - `h1` is a **selector**, it selects to which elements the style should apply (all h1 tags)
 - `background-color: yellow` is a **declaration** which defines how the selected elements should look like.
@@ -183,12 +196,15 @@ h1 {
 
 Example of a code snippet in JavaScript:
 
+<div class="big">
+
 ```javascript
 let fruits = ['Apple', 'Banana', 'Lemon'];
 for (let fruit of fruits) {
   document.body.innerHTML += `<div>${fruit}</div>`;
 }
 ```
+</div>
 
 This Javascript code appends a new `<div>` element for each element of an array at the end of the webpage.
 
@@ -411,7 +427,7 @@ _class : lead
 
 ## What is Visual Studio Code (VS Code)?
 
-- open code editor from Microsoft
+- open source code editor from Microsoft
 - helps with writing source code (e.g. HTML, CSS, JavaScript)
 </div>
 
