@@ -155,7 +155,7 @@ Use the online editor of **stackblitz.com** in order to try basic HTML for yours
 <a class="bigger" href="https://t1p.de/aw-01a">t1p.de/aw-01a</a>
 
 <div class="box box-info">
-  ℹ️ <strong>Info</strong>: You can also open <code>lecture_1/lecture_examples/1_html/index.html</code> in VS Code and use the "Live Server" plugin for showing it in the browser (see <em>Self-study 1</em>).
+  ℹ️ <strong>Info</strong>: You can also open <code>lecture_1/lecture_examples/1_html/index.html</code> in VS Code and use the "Live Server" plugin for showing it in the browser (see <em>Self-study - preparations</em>).
 </div>
 
 ---
@@ -440,7 +440,7 @@ _class : lead
 ## Web application template
 
 <div class="box box-info">
-  ℹ️ See steps in Moodle how to get and run the template (<i>Self-study 1</i>).
+  ℹ️ See steps in Moodle how to get and run the template (<i>Self-study - preparations</i>).
 </div>
 
 **Contents of the template** (`lecture_1/example_solution`):

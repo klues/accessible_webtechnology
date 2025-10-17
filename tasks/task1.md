@@ -6,13 +6,13 @@ In this task you'll identify and basically **implement components** of your web 
 * **identify all views** of your app (e.g. Login, Settings, Help, ...)
 * **identify parts** of your UI prototype which **could be implemented as components** -> see messenger example in the slides
 * **translate the components** to a **sensible HTML representation** -> compare with examples in the slides
-* **implement the views and components** to your copy of the example solution (see Self-study 1)
+* **implement the views and components** to your copy of the example solution (see *Self-study - preparations*)
    * for each view a separated file in folder "views" - e.g. LoginView.js
    * for each component a separated file in folder "components" - e.g. Conversation.js
 * **modify the routes** in "routes.js" to have a route for all your views
 * **modify the navigation** (`<nav>` element) in "App.js" in order to be able to navigate to all views within your app
 * **delete superfluous components and views** from the example solution, which aren't used by your app (e.g. Conversation.js, UsersView.js, ...)
-* **test your solution** by running VS Code "Live Server" (see Self-study 1) and opening it in the browser
+* **test your solution** by running VS Code "Live Server" (see *Self-study - preparations*) and opening it in the browser
 
 ## Submission requirements
 

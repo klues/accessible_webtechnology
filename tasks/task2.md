@@ -12,7 +12,7 @@ In this task you'll identify and basically **implement interactivity** of your w
    * which data should be stored permanentely (use predefined `dataService.js`)
    * see examples for implementation in slides and `lecture_2/example_solution_complete`)
 * **implement basic functionality** for most important tasks of your app
-* **test your solution** by running VS Code "Live Server" (see *Self-study 1*) and opening it in the browser
+* **test your solution** by running VS Code "Live Server" (see *Self-study - preparations*) and opening it in the browser
 * **test your solution** with NVDA screen reader - can you access all functionality using the keyboard and the screen reader?
 
 ## Submission requirements
