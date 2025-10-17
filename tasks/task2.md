@@ -1,11 +1,10 @@
 # Task 2 - implement interactivity
 
-In this task you'll identify and basically **implement interactivity** of your web application. Your **UI prototype** from course *UX Aspects* is the basis of this task.
+In this task you'll identify and basically **implement interactivity** of your web application. Your **UI prototype** from course *UX Aspects* is the basis of this task. **Continue working on the app** like submitted in Task 1.
 
 ## What to do
 
-* pick the **most important tasks** users want to perform in your app (compare Task 1 of *UX aspects*)
-   * e.g. *"As a user I want to be able to open a conversation for each contact and send messages to contacts"*
+* pick the **most important user stories** users want to perform in your app (see *Task 0B*)
 * **think how you could implement these tasks** using the concepts learned in lecture 2:
    * which data is needed in which component? (e.g. Array of Objects `{sender: "<name>", text: "<message>"}` for conversations)
    * how to display the data to HTML? (e.g. `v-if` and `v-for` or `{{ data }}`)
@@ -28,4 +27,8 @@ In this task you'll identify and basically **implement interactivity** of your w
 
 * don't add any styles to your app - just plain HTML. It looks ugly, but we concentrate on the app's structure for now.
 * no need for real and full functionality - e.g. really sending messages over the internet. Just create and fake data you need ("mock data")
-* **don't submit AI-generated code which you don't understand**
+
+## What to submit
+
+* create a `.zip` archive of your project folder (e.g. "my-chat-app", the copy of the example solution) and upload it within this task.
+* ⚠ **don't submit AI-generated code which you don't understand**

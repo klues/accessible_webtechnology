@@ -32,8 +32,8 @@ In this task you'll identify and basically **implement components** of your web 
 * don't add any styles to your app - just plain HTML. It looks ugly, but we concentrate on the app's structure for now.
 * no need for any dynamic functionality, just add static content. For instance for the chat app, just add one fixed predefined message.
 * no need to aim for 100% completeness - focus on understanding the concepts rather than trying to include every detail of your UI prototype in the views/components
-* **don't submit AI-generated code which you don't understand**
 
 ## What to submit
 
 * create a `.zip` archive of your project folder (e.g. "my-chat-app", the copy of the example solution) and upload it within this task.
+* ⚠ **don't submit AI-generated code which you don't understand**
