@@ -354,12 +354,12 @@ There are **helper classes** in bootstrap which can be useful to use, e.g. for s
 
 * `m`: margin, e.g. `m-1`, `m-2`, ... for spacing around the element
 * `mt`: margin-top, e.g. `mt-1`, `mt-2`, ...
-* `mr`: margin-right
+* `me`: margin-right (`e` like "end")
 * `mb`: margin-bottom
-* `ml`: margin-left
+* `ms`: margin-left (`s` like "start")
 
 * `p`: padding, e.g. `p-1`, `p-2`, ... for spacing within the element (to the border)
-* `pt`, `pr`, `pb`, `pl` ... like for margin
+* `pt`, `pe`, `pb`, `ps` ... like for margin
 
 See docs: https://getbootstrap.com/docs/5.0/utilities/spacing/
 
