@@ -3,7 +3,7 @@
 In this task you'll **submit your final web application prototype** where your **UI prototype** from course *UX Aspects* is the basis. **Continue working on the app** like submitted in Task 3.
 
 ## What to do
-* **implement improvement tasks** derived from your user study (*UX aspects*)
+* **implement improvement tasks** (*Issues*) derived from your user study (*UX aspects*)
 * use the **6 most important user stories** (see *Task 0B*) **test if they are accessible** using a screen reader (e.g. NVDA)
 * **improve accessibility issues** found while doing screen reader tests
 * do final tweaks and improvements
