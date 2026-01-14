@@ -13,6 +13,7 @@ In this task you'll **create a video** showing the **usage of a screen reader** 
 * video length: **1-3 minutes**
 * video shows **exactly one user story** as defined in *Task 0B*
 * if you want you can **comment or discuss problems** while using the screen reader (optional)
+* **Important:** make sure that the speech output of the screenreader can be heard on the video (computer sound is recorded by OBS Studio)!
 
 ## What to submit
 * the video file recorded with OBS Studio
