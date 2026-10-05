@@ -12,6 +12,7 @@ In this task you'll **create a video** showing the **usage of a screen reader** 
 ## Submission requirements
 * video length: **1-3 minutes**
 * video shows **exactly one user story** as defined in *Task 0B*
+* navigate and use the app with the **keyboard, not with mouse** (screenreader users normally cannot use the mouse)
 * if you want you can **comment or discuss problems** while using the screen reader (optional)
 * **Important:** make sure that the speech output of the screenreader can be heard on the video (computer sound is recorded by OBS Studio)!
 
