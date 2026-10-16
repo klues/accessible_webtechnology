@@ -1,16 +1,16 @@
 ---
 marp: true
+---
+
+<!--
 theme: fhtw
 footer: 'Accessible Webtechnology – Introduction'
 paginate: true
 title: Accessible Webtechnology – Introduction
 keywords: Webtechnology, HTML, CSS, Javascript, component-based, WCAG, Accessibility, NVDA
----
-
-<!--
 _paginate: skip
 _footer: ''
-_class : lead
+_class: lead
 -->
 
 # Accessible Webtechnology - Introduction
