@@ -159,12 +159,12 @@ HTML elements should be used to define important areas of a page:
 
 ## Try HTML for yourself
 
-Use the online editor of **stackblitz.com** in order to try basic HTML for yourself:
+* open <code>lecture_1/lecture_examples/1_html/index.html</code> in VS Code
+* use the "Live Server" plugin for showing it in the browser (see <em>Self-study -> preparations</em>).
 
-<a class="bigger" href="https://t1p.de/aw-01a">t1p.de/aw-01a</a>
 
 <div class="box box-info">
-  ℹ️ <strong>Info</strong>: You can also open <code>lecture_1/lecture_examples/1_html/index.html</code> in VS Code and use the "Live Server" plugin for showing it in the browser (see <em>Self-study - preparations</em>).
+  ℹ️ <strong>Info</strong>: if you don't have done the preparations yet, you can also use the prepared example at stackblitz.com in the browser: <a href="https://t1p.de/aw-01a">t1p.de/aw-01a</a>
 </div>
 
 ---
@@ -388,10 +388,13 @@ Better **think for yourself** instead of trusting some AI tool:
 - AI tools often fail to solve tasks which are not "standard tasks"
 - our quite simple approach of defining HTML-components (without relation to a specific framework) seems to confuse AI
 
-See [this conversation with ChatGPT](https://chatgpt.com/share/68bab87e-a020-8012-a3a7-a9ebf83ece28) as an example how AI fails to solve the task we've done within the last slides.
+Example AI conversations:
+* [2025 ChatGPT - vague prompt](https://chatgpt.com/share/68bab87e-a020-8012-a3a7-a9ebf83ece28) - totally confusing
+* [2026 Gemini - precise promt](https://share.gemini.google/uVDvk3YrnX9m) - result is okay
+* [2026 Gemini - vague prompt](https://share.gemini.google/zXh9PqVkP0sK) - still confusing
 
 <div class="box box-warn">
-  ⚠️ <strong>Warning</strong>: relying on AI to solve your tasks may seem efficient at first, but often ends up being more tedious than doing everything yourself.
+  ⚠️ <strong>Warning</strong>: relying on AI to solve your tasks may seem efficient at first, but can end up with learning nothing (AI solved it) or with confusion.
 </div>
 
 ---
