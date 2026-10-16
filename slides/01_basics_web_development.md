@@ -67,12 +67,6 @@ _class : lead
 
 ---
 
-## Local development of a web application
-
-<img class="mt-1" src="./img/client_server_browser_4_dev_computer.png" alt="Image showing browser and web server interacting via HTTP. Also shows text editor which saves HTML, CSS, JavaScript files to local file system. These files are retrieved by the webserver and served to the browser. Everything runs on the same development computer" height="550" />
-
----
-
 ## HTML basics
 HTML is a **markup language** - a well defined system for structuring text and information.
 - **Tags**: reserved keywords for defined elements
@@ -166,6 +160,12 @@ HTML elements should be used to define important areas of a page:
 <div class="box box-info">
   ℹ️ <strong>Info</strong>: if you don't have done the preparations yet, you can also use the prepared example at stackblitz.com in the browser: <a href="https://t1p.de/aw-01a">t1p.de/aw-01a</a>
 </div>
+
+---
+
+## Local development of a web application
+
+<img class="mt-1" src="./img/client_server_browser_4_dev_computer.png" alt="Image showing browser and web server interacting via HTTP. Also shows text editor which saves HTML, CSS, JavaScript files to local file system. These files are retrieved by the webserver and served to the browser. Everything runs on the same development computer" height="550" />
 
 ---
 
