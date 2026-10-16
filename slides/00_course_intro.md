@@ -53,13 +53,15 @@ After the course **Accessible Webtechnology** you:
 <div class="columns">
 <div>
 
-![height:430px](./img/Gemini_Generated_Image_e9r9b4e9r9b4e9r9.png)
+![height:430px](./img/Gemini_Generated_Image_2025.png)
 
 </div>
 
 <div>
 
-<div class="mt-7"><big>learning by doing a project...</big></div>
+![height:330px](./img/Gemini_Generated_Image_2026.jpg)
+
+<div class="mt-1"><big>learning by doing a project...</big></div>
 </div>
 </div>
 
