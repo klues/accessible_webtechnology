@@ -1,15 +1,13 @@
 ---
 marp: true
-theme: fhtw
-footer: 'Accessible Webtechnology – Lesson 1'
-paginate: true
-
-title: Accessible Webtechnology – Lesson 1
-keywords: Webtechnology, HTML, CSS, Javascript, component-based, WCAG, Accessibility, NVDA
-
 ---
 
 <!--
+theme: fhtw
+footer: 'Accessible Webtechnology – Lesson 1'
+paginate: true
+title: Accessible Webtechnology – Lesson 1
+keywords: Webtechnology, HTML, CSS, Javascript, component-based, WCAG, Accessibility, NVDA
 _footer: ''
 _class : lead
 -->

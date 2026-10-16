@@ -1,14 +1,12 @@
 ---
 marp: true
-theme: fhtw
-footer: 'Accessible Webtechnology – Lesson 4'
-paginate: true
-
-title: Accessible Webtechnology – Lesson 4
-
 ---
 
 <!--
+theme: fhtw
+footer: 'Accessible Webtechnology – Lesson 4'
+paginate: true
+title: Accessible Webtechnology – Lesson 4
 _footer: ''
 _class : lead
 -->

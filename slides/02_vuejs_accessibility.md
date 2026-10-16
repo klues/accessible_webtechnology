@@ -1,15 +1,13 @@
 ---
 marp: true
-theme: fhtw
-footer: 'Accessible Webtechnology – Lesson 2'
-paginate: true
-
-title: Accessible Webtechnology – Lesson 2
-keywords: JavaScript and Vue.js, Accessibility, NVDA
-
 ---
 
 <!--
+theme: fhtw
+footer: 'Accessible Webtechnology – Lesson 2'
+paginate: true
+title: Accessible Webtechnology – Lesson 2
+keywords: JavaScript and Vue.js, Accessibility, NVDA
 _footer: ''
 _class : lead
 -->

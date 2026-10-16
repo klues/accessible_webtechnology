@@ -1,15 +1,13 @@
 ---
 marp: true
-theme: fhtw
-footer: 'Accessible Webtechnology – Lesson 3'
-paginate: true
-
-title: Accessible Webtechnology – Lesson 3
-keywords: CSS, Responsive Design, Bootstrap
-
 ---
 
 <!--
+theme: fhtw
+footer: 'Accessible Webtechnology – Lesson 3'
+paginate: true
+title: Accessible Webtechnology – Lesson 3
+keywords: CSS, Responsive Design, Bootstrap
 _footer: ''
 _class : lead
 -->
