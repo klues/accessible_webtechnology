@@ -14,7 +14,7 @@ _class : lead
 
 # Accessible Webtechnology - Lesson 1
 
-Web development basics, HTML, Component-based development, Screen reader
+Web development basics, HTML, Component-based development
 
 ---
 ## Lesson 1 Overview
